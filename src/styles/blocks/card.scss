@@ -12,7 +12,7 @@
     height: 134px;
   }
 
-  &__name {
+  &__title {
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
@@ -37,7 +37,7 @@
   }
 }
 
-.card__name:hover {
+.card__title:hover {
   color: #34568b;
 }
 
@@ -47,13 +47,13 @@
 }
 
 .price {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 12px;
   color: $color-4;
   margin: 0;
 
   &-sum {
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 16px;
     margin: 0;
   }
@@ -73,9 +73,8 @@
   border-radius: 5px;
 
   &:hover {
-    color: $color-3;
+    color: #00acdc;
     background: $color-1;
-    border: 1px solid $color-3;
     border-radius: 5px;
 
     transition-duration: 300ms;
